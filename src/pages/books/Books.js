@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Book() {
+function Books() {
   return (
     <div>
     <h1>welcome to book pages</h1>
@@ -8,4 +8,4 @@ function Book() {
   )
 }
 
-export default Book
+export default Books

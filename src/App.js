@@ -1,11 +1,13 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "./pages/navbar/Navbar";
-import Book from "./pages/book/Book"; 
+import Books from "./pages/books/Books";
 import Product from "./product/Product";
 import Templates from "./pages/templates/Templates";
 import Pricing from "./pages/pricing/Pricing"; 
 import Customers from "./pages/customers/Customers"; 
+import Login from "./pages/login/Login";
+import Signup from "./pages/signup/Signup";
 
 function App() {
   return (
@@ -25,14 +27,14 @@ function App() {
           <Route exact path="/customers">
             <Customers />
           </Route>
-          <Route exact path="/book">
-            <Book />
+          <Route exact path="/books">
+            <Books />
           </Route>
           <Route exact path="/login">
-            <login/>
+            <Login/>
           </Route>
           <Route exact path="/signup">
-            <signup />
+            <Signup />
           </Route>
         </Switch>
       </div>

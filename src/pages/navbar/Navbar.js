@@ -62,6 +62,11 @@ const Navbar = () => {
             CUSTOMERS
           </Link>
         </li>
+        <li style={{ marginRight: "30px" }}>
+          <Link to="/books" style={{ color: "white", textDecoration: "none" }}>
+            BOOKS
+          </Link>
+        </li>
         <li style={{ marginRight: "100px" }}>
           <button
             style={{
